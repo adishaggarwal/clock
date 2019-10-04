@@ -8,12 +8,25 @@ setInterval(function() {
     var h=d.getHours();
     var m=d.getMinutes();
     var s=d.getSeconds();
-    if(h==0 && s==0 && m==0)
+    if(h<10)
     {
-        dup();
+        var st=''+h;
+        st='0'+st;
+        s=st;
+    }
+    if(m<10)
+    {
+        var sr=''+m;
+        sr='0'+sr;
+        m=sr;
+    }
+    if(s<10)
+    {
+        var ss=''+s;
+        ss='0'+ss;
+        s=ss;
     }
     
-    else
     $(".time").html(`<p>${h}:${m}:${s}</p>`);
 }, 1000);
 
