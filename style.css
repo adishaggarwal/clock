@@ -93,7 +93,7 @@ body{
 @media(max-width:600px)
 {
     .left p,.right p{
-        margin-top: 2vh;
+        
     }
     .right{
         margin-left: 230px;
