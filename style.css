@@ -1,0 +1,99 @@
+body{
+    height: 100vh;
+    background: url("C:/Users/avi aggarwal/Desktop/WEB DEVELOPMENT/clock/back.jpg");
+    background-size:cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav{
+    display: flex;
+    
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+
+.left p,.right p{
+    margin-top: 3vh;
+    font-size: 25px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 780px;
+}
+.right img:nth-child(1){
+    padding-right: 1.5vw;
+}
+
+.footer{
+    margin-top: 40vh;
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    align-self: center;
+}
+
+.time , .date{
+    font-size: 50px;
+    color: #000;
+    align-self: center;
+}
+
+@media(max-width:1700px)
+{
+    .left p,.right p{
+        margin-top: 2vh;
+    }
+    .right{
+        margin-left: 680px;
+    }
+}
+
+@media(max-width:1500px)
+{
+    .left p,.right p{
+        margin-top: 2vh;
+    }
+    .right{
+        margin-left: 580px;
+    }
+}
+
+@media(max-width:1200px)
+{
+    .left p,.right p{
+        margin-top: 2vh;
+    }
+    .right{
+        margin-left: 480px;
+    }
+}
+
+
+@media(max-width:1000px)
+{
+    .left p,.right p{
+        margin-top: 2vh;
+    }
+    .right{
+        margin-left: 280px;
+    }
+}
+
+@media(max-width:600px)
+{
+    .left p,.right p{
+        margin-top: 2vh;
+    }
+    .right{
+        margin-left: 150px;
+    }
+}
+
