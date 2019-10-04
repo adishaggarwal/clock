@@ -19,14 +19,17 @@ body{
 }
 
 .left p,.right p{
-    margin-top: 3vh;
-    font-size: 25px;
+    font-size: 12px;
+}
+
+.left img, .right img{
+    margin-top: 5px;
 }
 
 .right{
     display: flex;
     flex-direction: row;
-    margin-left: 780px;
+    margin-left: 1200px;
 }
 .right img:nth-child(1){
     padding-right: 1.5vw;
@@ -52,7 +55,7 @@ body{
         margin-top: 2vh;
     }
     .right{
-        margin-left: 680px;
+        margin-left: 1080px;
     }
 }
 
@@ -62,7 +65,7 @@ body{
         margin-top: 2vh;
     }
     .right{
-        margin-left: 580px;
+        margin-left: 880px;
     }
 }
 
@@ -72,7 +75,7 @@ body{
         margin-top: 2vh;
     }
     .right{
-        margin-left: 480px;
+        margin-left: 680px;
     }
 }
 
@@ -83,7 +86,7 @@ body{
         margin-top: 2vh;
     }
     .right{
-        margin-left: 280px;
+        margin-left: 480px;
     }
 }
 
@@ -93,7 +96,7 @@ body{
         margin-top: 2vh;
     }
     .right{
-        margin-left: 130px;
+        margin-left: 280px;
     }
 }
 
