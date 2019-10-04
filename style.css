@@ -103,5 +103,8 @@ body{
         color: #000;
         align-self: center;
     }
+    .footer{
+        margin-top: 55vh;
+    }
 }
 
