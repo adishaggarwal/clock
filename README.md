@@ -16,5 +16,5 @@ Adish Aggarwal
 
 # SCREENSHOTS
 ![](images/1.JPG)
-![](images/2.JPG)
+
 
